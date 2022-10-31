@@ -104,6 +104,12 @@ input:focus-visible {
     border-radius: 3px;
 }
 
+form .form-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 form fieldset {
     padding: 15px;
     border: none;
@@ -116,7 +122,7 @@ form .params {
     margin-left: 49px;
 }
 
-form .blue-back {
+form .legend {
     background-color: rgb(228, 228, 228);
     padding: 3px 15px;
     border-radius: 21px;
@@ -130,6 +136,71 @@ form .diagnosis {
 form .plus-icon:hover {
     cursor: pointer;
     transform: scale(1.1);
+}
+
+form .unit {
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+form .eGFR-formula {
+    display: flex;
+    align-items: center;
+}
+
+form .eGFR {
+    font-size: 16px;
+    padding: 5px 10px;
+    margin-left: 69px;
+    width: 216px;
+    height: 31px;
+    border: 1px solid skyblue;
+}
+
+/* aligning form input boxes */
+#patient_id {
+    margin-left: 25px;
+}
+
+#name {
+    margin-left: 3px;
+}
+
+#age {
+    margin-left: 79px;
+}
+
+#diagnosis {
+    margin-left: 39px;
+}
+
+#AST,
+#creatinine {
+    margin-left: 5px;
+}
+
+#ALT {
+    margin-left: 9px;
+}
+
+#ALP {
+    margin-left: 7px;
+}
+
+#CBG {
+    margin-left: 43px;
+}
+
+#Na {
+    margin-left: 54px;
+}
+
+#K {
+    margin-left: 34px;
+}
+
+#Cl {
+    margin-left: 48px;
 }
 
 /* Styling the medications page */
@@ -206,7 +277,8 @@ footer {
 }
 
 .footer-bottom p a {
-    color: #44bae8;
+    /* color: #44bae8; */
+    color: white;
     font-size: 16px;
 }
 
@@ -223,7 +295,7 @@ footer {
     color: #cfd2d6;
 }
 
-.footer-menu ul li a:hover {
+.footer-menu ul li a:hover, .footer-bottom p a:hover {
     color: #27bcda;
 }
 

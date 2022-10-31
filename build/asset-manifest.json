@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.90b9ade7.js",
+    "main.js": "/static/js/main.b986db03.js",
     "static/js/787.e142ed6e.chunk.js": "/static/js/787.e142ed6e.chunk.js",
     "static/media/jssaten-logo.png": "/static/media/jssaten-logo.60a1c2546c748056e32a.png",
     "static/media/jssaher-logo.jpg": "/static/media/jssaher-logo.11ef1b1c2bb51135617f.jpg",
@@ -9,11 +9,11 @@
     "index.html": "/index.html",
     "static/media/plus.svg": "/static/media/plus.e1f08891f8a9aaf2c858571964a1f6e6.svg",
     "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.90b9ade7.js.map": "/static/js/main.90b9ade7.js.map",
+    "main.b986db03.js.map": "/static/js/main.b986db03.js.map",
     "787.e142ed6e.chunk.js.map": "/static/js/787.e142ed6e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.90b9ade7.js"
+    "static/js/main.b986db03.js"
   ]
 }
